@@ -1,10 +1,10 @@
 Vk Parse Photo From Data Archieve
 
-Using this project you can get all the photos from the archive vkontakte data.
+Using this project you can get all the photos from the archive vk data.
 
 //How to use
 
-Create an instance of the ParseImages class and pass 4 parameters: the vkontakte token, the path to the dialog folder, the output directory, a string type list with exclusive ids.
+Create an instance of the ParseImages class and pass 4 parameters: VK token, the path to the dialog folder, the output directory, a string type list with exclusive ids.
 
 ```C#
 ParseImages parseImages = new ParseImages("vkAnyAccessToken", 
