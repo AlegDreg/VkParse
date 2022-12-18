@@ -157,6 +157,8 @@ namespace VkParse
             {
                 uris.Add(match.Value.Replace("'>", ""));
             }
+            
+            uris = uris.Distinct().ToList();
 
             return uris;
         }
