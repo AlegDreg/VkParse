@@ -149,7 +149,7 @@ namespace VkParse
             //text = text.Replace("\n", "").Replace("\t", "");
             List<string> uris = new List<string>();
 
-            Regex regex = new Regex(@"https:\/\/sun([0-9]+)-([0-9]+)\.userapi\.com\/impg\/(.*)\.([a-z]+)\?size=([0-9]+)x([0-9])+&quality=([0-9]+)&sign=(.*)&type=album'>");
+            Regex regex = new Regex(@"https:\/\/sun(.+?).com\/sun(.+?)\/(.+?)\/(.+?)\/(.+?)\/(.+?)\.(.+?)?size=(.+?)&quality=(.+?)&type=album");
 
             MatchCollection matchCollection = regex.Matches(text);
 
